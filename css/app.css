@@ -4,27 +4,32 @@ html {
   font-family: "Overpass", sans-serif;
 }
 
-.container .card {
+/* card */
+section .card {
   padding: 10px;
   margin: 120px auto;
   background-color: hsla(213, 19%, 18%, 0.5);
   border-radius: 8%;
 }
 
-.container .card svg {
+/* card svg */
+section .card svg {
   background-color: hsl(213, 19%, 18%);
   color: hsl(25, 97%, 53%);
 }
 
+/* card-subtitle */
 .card .card-subtitle {
   font-weight: 700;
   margin-top: 35px;
 }
 
+/* card-text */
 .card .card-text {
   color: hsl(217, 12%, 63%);
 }
 
+/* card rating */
 .card #rating {
   color: white;
   display: flex;
@@ -45,4 +50,22 @@ html {
   line-height: 45px;
   text-align: center;
   margin-left: 10px;
+}
+
+/* button submit */
+.card button.btn {
+  background-color: hsl(25, 97%, 53%);
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.card button.btn:active {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.card button.btn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
 }
