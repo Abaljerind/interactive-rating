@@ -198,7 +198,7 @@ section .modal-card .response {
     margin-top: 150px;
   }
 
-  section .modal-dialog {
-    transform: scale(0.8);
+  section .modal {
+    transform: scale(0.9);
   }
 }
