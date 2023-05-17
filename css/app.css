@@ -5,7 +5,7 @@ html {
 }
 
 .container .card {
-  padding: 20px;
+  padding: 10px;
   margin: 120px auto;
   background-color: hsla(213, 19%, 18%, 0.5);
   border-radius: 5%;
@@ -23,4 +23,26 @@ html {
 
 .card .card-text {
   color: hsl(217, 12%, 63%);
+}
+
+.card #rating {
+  color: white;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  background-color: hsl(213, 19%, 18%);
+  width: 60px;
+  height: 60px;
+  line-height: 45px;
+  text-align: center;
+  margin-left: 10px;
 }
