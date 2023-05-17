@@ -20,3 +20,7 @@ html {
   font-weight: 700;
   margin-top: 35px;
 }
+
+.card .card-text {
+  color: hsl(217, 12%, 63%);
+}
