@@ -1,5 +1,7 @@
-body {
+body,
+html {
   background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
 }
 
 .container .card {
@@ -12,4 +14,9 @@ body {
 .container .card svg {
   background-color: hsl(213, 19%, 18%);
   color: hsl(25, 97%, 53%);
+}
+
+.card .card-subtitle {
+  font-weight: 700;
+  margin-top: 35px;
 }
