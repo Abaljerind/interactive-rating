@@ -13,7 +13,7 @@ section .card {
 }
 
 /* card svg */
-section .card svg {
+section .card .container-svg svg {
   background-color: hsl(213, 19%, 18%);
   color: hsl(25, 97%, 53%);
 }
@@ -68,4 +68,55 @@ section .card svg {
 .card button.btn:hover {
   background-color: white;
   color: hsl(25, 97%, 53%);
+}
+
+/* media queries */
+@media (max-width: 767.98px) {
+  section {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  section .card {
+    width: 380px;
+    border-radius: 4%;
+  }
+
+  section .card .container-svg svg {
+    margin-left: -10px;
+    margin-bottom: -20px;
+    transform: scale(0.8);
+  }
+
+  section .card-subtitle {
+    font-size: 20px;
+  }
+
+  section .card-text {
+    font-size: 14px;
+    margin-bottom: -5px;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five {
+    background-color: hsl(213, 19%, 18%);
+    width: 45px;
+    height: 45px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .card button.btn {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .card button.btn:focus {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+  }
 }
