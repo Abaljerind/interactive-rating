@@ -51,6 +51,7 @@ section .card .container-svg svg {
   text-align: center;
   margin-left: 10px;
   border-color: transparent;
+  color: hsl(217, 12%, 63%);
 }
 
 .one:active,
