@@ -90,6 +90,39 @@ section .card .container-svg svg {
   color: hsl(25, 97%, 53%);
 }
 
+/* perlu dihapus nantinya */
+section .card {
+  display: none;
+}
+
+/* thank you css */
+/* modal */
+section .modal-content {
+  padding: 20px;
+  background-color: hsla(213, 19%, 18%, 0.5);
+}
+
+/* modal-card */
+section .modal .modal-dialog .modal-content {
+  margin-left: 30px;
+  margin-top: 150px;
+}
+
+section .modal-card p:first-child {
+  color: hsl(25, 97%, 53%);
+  background-color: hsla(213, 19%, 18%, 0.5);
+  display: inline;
+  padding: 10px;
+}
+
+section .modal-card .thanks {
+  color: white;
+}
+
+section .modal-card .response {
+  color: hsl(216, 12%, 54%);
+}
+
 /* media queries */
 @media (max-width: 767.98px) {
   section {
@@ -140,5 +173,15 @@ section .card .container-svg svg {
   .card button.btn:focus {
     background-color: white;
     color: hsl(25, 97%, 53%);
+  }
+
+  section .modal .modal-dialog .modal-content {
+    width: 380px;
+    margin-left: -30px;
+    margin-top: 150px;
+  }
+
+  section .modal-dialog {
+    transform: scale(0.8);
   }
 }
