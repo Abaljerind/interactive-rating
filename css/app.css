@@ -52,6 +52,26 @@ section .card .container-svg svg {
   margin-left: 10px;
 }
 
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+
+.one:active,
+.two:active,
+.three:active,
+.four:active,
+.five:active {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+
 /* button submit */
 .card button.btn {
   background-color: hsl(25, 97%, 53%);
@@ -108,6 +128,7 @@ section .card .container-svg svg {
     line-height: 30px;
     text-align: center;
     margin-left: 10px;
+    cursor: pointer;
   }
 
   .card button.btn {
