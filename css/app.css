@@ -50,6 +50,17 @@ section .card .container-svg svg {
   line-height: 45px;
   text-align: center;
   margin-left: 10px;
+  border-color: transparent;
+}
+
+.one:active,
+.two:active,
+.three:active,
+.four:active,
+.five:active {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
 }
 
 .one:hover,
@@ -62,11 +73,11 @@ section .card .container-svg svg {
   cursor: pointer;
 }
 
-.one:active,
-.two:active,
-.three:active,
-.four:active,
-.five:active {
+.one:focus,
+.two:focus,
+.three:focus,
+.four:focus,
+.five:focus {
   background-color: hsl(25, 97%, 53%);
   color: white;
   cursor: pointer;
@@ -86,6 +97,11 @@ section .card .container-svg svg {
 }
 
 .card button.btn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.card button.btn:focus {
   background-color: white;
   color: hsl(25, 97%, 53%);
 }
