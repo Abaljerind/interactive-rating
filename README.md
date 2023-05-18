@@ -51,8 +51,6 @@ Users should be able to:
 - Javascript DOM
 - Javascript Event Listener
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 I just know that i can only use the pseudo-class :hover for many class like the code below, it should've look like that. Before the css code below look like that, i just give the :hover to the last class only, and i found it didn't go well, after i check again on google, i found out the :hover should've been given to all the class not just the last one, so yeah at least i learn and now i know. For the javascript code below, it was one of many idea how to show and hide the card section and the modal section, and i use this one cause it's more easy and less code.
